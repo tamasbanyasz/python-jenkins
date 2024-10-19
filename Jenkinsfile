@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the GitHub repository
-                git 'https://github.com/your-username/fibonacci-jenkins.git'
+                git 'https://github.com/tamasbanyasz/python-jenkins.git'
             }
         }
 
